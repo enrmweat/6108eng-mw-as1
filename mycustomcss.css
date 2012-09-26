@@ -1,0 +1,14 @@
+/* my custom style sheet */
+
+/* import bootstrap css */
+
+@import url(assets/css/bootstrap.css);
+
+/*my custom style*/
+
+body{
+	background-image: url(assets/img/ski.jpg);
+	color: #000000
+
+}
+
