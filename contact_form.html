@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Contact Information</title>
+    <title>About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -25,7 +25,7 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="icon" type="image/ico" href="assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
@@ -49,7 +49,7 @@
               <li><a href="about.html" title="About Us">About</a></li>
                <li class="dropdown">
                 <a  href="#" class="dropdown-toggle" data-toggle="dropdown"  title="Contact Us">Contact <b class="caret"></b></a>
-                <ul class="dropdown-menu" "active">
+                <ul class="dropdown-menu">
                   <li><a class="active" href="contact.html"> Contact Information</a></li>
                   <li><a href="contact_form.html" >Contact Form</a></li>
                 </ul>
@@ -76,55 +76,78 @@
 
     <div class="container">
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="container">
+       <div class="container">
     <div class="page-header">
-      <h1>Contact Information</h1>
+      <h1>Contact Form</h1>
     </div>
     
-      <!-- Contact Information Document -->
-      <div class="row">
-        <div class="span12">
-          
-          <p>Below you will find all the contact information for the club</p>
-          
-        </div>
-        <div id="head-section" class="row">
-      <div class="span3">
-        <h2>Sample Document Head</h2>
-        <p>Based on Twitter Bootstrap's examples, <a href="http://twitter.github.com/bootstrap/examples.html">online here</a>, with occasional variations based on the also-excellent <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>.</p>
 
-        <h3>Note the CSS sequence</h3>
-        <p>This CSS configuration is needed to make the nav work responsively:</p>
-          <ol>
-            <li>bootstrap.css, followed by ...</li>
-            <li>embedded styles for navbar-top-fixed</li>
-            <li>followed by bootstrap-responsive.css</li>
-          </ol>
-        <p>This is noted <a href="http://twitter.github.com/bootstrap/components.html#navbar">in Bootstrap 2.0's documentation</a> under "Fixed navbar."</p> 
-        <p><strong>A possible alternative approach is noted below.</strong></p>
-      </div><!-- .span -->
-      <div class="span9">
-        <pre>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Sample Site&lt;/title&gt;
-    
-  </pre>
-
-      </div><!-- .span -->
-    </div><!-- .row -->
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?q=53.359399,-3.007065&amp;num=1&amp;t=w&amp;ie=UTF8&amp;ll=We Are Here&amp;spn=0.005571,0.016329&amp;z=14&amp;iwloc=near&amp;output=embed"></iframe><br /><small> <a class="btn btn-primary btn-small" href="https://maps.google.co.uk/maps?q=53.359399,-3.007065&amp;num=1&amp;t=w&amp;ie=UTF8&amp;ll=53.359563,-3.006709&amp;spn=0.005571,0.016329&amp;z=14&amp;iwloc=near&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+    <form action="" id="contact-form" class="form-horizontal">
+<fieldset>
+  <legend>Please use our contact form to submit any queries you have</legend>
+    <div class="control-group">
+      <label class="control-label" for="name" title="Please Enter your Full Name">Your Name</label>
+      <div class="controls">
+        <input type="text" class="input-xlarge" name="name" id="name">
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="email" title="Please Enter Your Email">Email Address</label>
+      <div class="controls">
+        <input type="text" class="input-xlarge" name="email" id="email">
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="subject" title="Please Enter A Subject">Subject</label>
+      <div class="controls">
+        <input type="text" class="input-xlarge" name="subject" id="subject">
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="message" title="Please Enter Your Message Here">Your Message</label>
+      <div class="controls">
+        <textarea class="input-xlarge" name="message" id="message" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary btn-medium" title="Send Query">Submit</button>
+      <button type="reset" class="btn" title="Cancel">Cancel</button>
+    </div>
+  </fieldset>
+</form>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+      </div>
 
       <hr>
 
@@ -139,8 +162,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
    <script text/javascript src="assets/js/jquery-1.8.2.min.js"></script>
     <script text/javascript src="assets/js/bootstrap.min.js"></script>
-
-
 
   </body>
 </html>
