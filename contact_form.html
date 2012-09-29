@@ -45,24 +45,31 @@
           <a class="brand" href="index.html" title="Return to Home Page">Oval Ski Club</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><a href="index.html" title="Home Page"><i class="icon-home icon-white"></i> Home</a></li>
-              <li><a href="about.html" title="About Us">About</a></li>
+              <li><a href="index.html" title="Home Page" accesskey="h"><i class="icon-home icon-white"></i> Home</a></li>
+              <li><a href="about.html" title="About Us" accesskey="a">About</a></li>
                <li class="dropdown">
-                <a  href="#" class="dropdown-toggle" data-toggle="dropdown"  title="Contact Us">Contact <b class="caret"></b></a>
+                <a  href="#" class="dropdown-toggle" data-toggle="dropdown" accesskey="c" title="Contact Us">Contact <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a class="active" href="contact.html"> Contact Information</a></li>
-                  <li><a href="contact_form.html" >Contact Form</a></li>
+                  <li><a class="active" href="contact.html" accesskey="1" > Contact Information</a></li>
+                  <li><a href="contact_form.html" accesskey="2" >Contact Form</a></li>
                 </ul>
               </li>
             
               <li class="dropdown">
-                <a  href="#" class="dropdown-toggle" data-toggle="dropdown"  title="See our Social Events">Social Events <b class="caret"></b></a>
+                <a  href="#" class="dropdown-toggle" data-toggle="dropdown" accesskey="s" title="See our Social Events">Social Events <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="social_events.html">Social Events</a></li>
-                  <li><a href="club_holiday.html">Club Holiday</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a href="social_events.html" accesskey="3">Social Events</a></li>
+                  <li><a href="club_holiday.html" accesskey="4">Club Holiday</a></li>
+                  <li><a href="#" accesskey="5">Something else here</a></li>
                   </ul>
               </li>
+               <li class="dropdown">
+                <a  href="#" class="dropdown-toggle" data-toggle="dropdown" accesskey="i" title="FAQ">FAQ & Information <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                 <li><a href="faq.html" accesskey="6" >FAQs</a></li>
+                  <li><a href="clubsessions.html" accesskey="7">Club Sessions</a></li>
+                  <li><a href="accesskeyinfo.html" accesskey="8">List of Access Keys</a></li>
+                  </ul>
             </ul>
             <form class="navbar-form pull-right">
               <input class="span2" type="text" placeholder="Email">
@@ -82,39 +89,43 @@
     </div>
     
 
-    <form action="" id="contact-form" class="form-horizontal">
+
+
+    <form name="contactform" action="send_form_email.php" method="post" id="contact-form" class="form-horizontal">
 <fieldset>
-  <legend>Please use our contact form to submit any queries you have</legend>
+  <legend>Please use our contact form to submit a request to volunteer or any queries you may have</legend>
     <div class="control-group">
-      <label class="control-label" for="name" title="Please Enter your Full Name">Your Name</label>
+      <label class="control-label" for="name" title="Please Enter Your Full Name">Your Name*</label>
       <div class="controls">
         <input type="text" class="input-xlarge" name="name" id="name">
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="email" title="Please Enter Your Email">Email Address</label>
+      <label class="control-label" for="email" title="Please Enter Your Email">Email Address*</label>
       <div class="controls">
         <input type="text" class="input-xlarge" name="email" id="email">
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="subject" title="Please Enter A Subject">Subject</label>
+      <label class="control-label" for="subject" title="Please Enter A Subject">Subject*</label>
       <div class="controls">
         <input type="text" class="input-xlarge" name="subject" id="subject">
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="message" title="Please Enter Your Message Here">Your Message</label>
+      <label class="control-label" for="message" title="Please Enter Your Message Here">Your Message*</label>
       <div class="controls">
         <textarea class="input-xlarge" name="message" id="message" rows="3"></textarea>
       </div>
     </div>
     <div class="form-actions">
-      <button type="submit" class="btn btn-primary btn-medium" title="Send Query">Submit</button>
+      <button type="submit" href="form_successful.html" class="btn btn-primary btn-medium" title="Send Query">Submit</button>
       <button type="reset" class="btn" title="Cancel">Cancel</button>
     </div>
   </fieldset>
 </form>
+<br>
+<p class="alert alert-success">NOTE: All fields marked with a * are required</p>
 
 
 

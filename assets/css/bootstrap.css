@@ -150,11 +150,11 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #0088cc;
+  color: #000000;
   text-decoration: none;
 }
 a:hover {
-  color: #005580;
+  color: #000000;
   text-decoration: underline;
 }
 .img-rounded {
@@ -826,6 +826,7 @@ table {
   background-color: transparent;
   border-collapse: collapse;
   border-spacing: 0;
+
 }
 .table {
   width: 100%;
@@ -837,7 +838,7 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #000000;
 }
 .table th {
   font-weight: bold;
@@ -2250,7 +2251,7 @@ input[type="submit"].btn.btn-mini {
 }
 .btn-link:hover {
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
   background-color: transparent;
 }
 .btn-link[disabled]:hover {
