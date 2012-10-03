@@ -7,10 +7,33 @@
 /*my custom style*/
 
 body{
-	background-image: url(assets/img/ski4.jpg);
+	background-image: url(assets/img/ricepaper.png);
 
 	color: #000000;
+
+
 }
+
+.navbar-inner {
+		background-image: url(assets/img/ricepaper.png);
+}
+
+
+.hero-unit {
+	background-image: url(assets/img/ski5.jpg);
+	
+
+}
+
+/*a:link {color:#FF0000;}      /* unvisited link */
+/*a:visited {color:#00FF00;}  /* visited link */
+/*a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;} */ 
+
+
+
+
+
 
 
 
