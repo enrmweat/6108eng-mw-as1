@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Club Holiday</title>
+    <title>Oval Ski Club | Club Holiday</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -18,12 +18,12 @@
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- HTML5, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
+    <!-- favicon and icon images -->
     <link rel="icon" type="image/ico" href="assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
@@ -61,10 +61,10 @@
                   <li><a href="accesskeyinfo.html" accesskey="8">List of Access Keys</a></li>
                   </ul>
             </ul>
-            <form class="navbar-form pull-right">
+            <form class="navbar-form pull-right" action="index.html">
               <input class="span2" type="text" placeholder="Email">
               <input class="span2" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
+              <button <input type="submit" value="Submit" title="Sign In">Sign in</button>
             </form>
           </div><!--/.nav-collapse -->
         </div>
@@ -73,7 +73,33 @@
 
     <div class="container">
 
-           <img src="assets/img/weather2.png" align="right" title="Weather In St.Anton/St Christoph at Present">
+            <!-- weather widget -->
+            <div class="pull-right" title="Live Weather in St Anton, courtesy of www.booked.net" id="m-booked-bl-simple-35377">
+            <div align="right" title="weather widget">
+            </div> 
+            <div class="weather-160" style="background-color: #626f7d;">
+            <div class="booked-bl-simple-main">
+            <div class="booked-bl-simple-weather wmed18">
+            <div class="booked-bl-simple-degree">
+            <div class="booked-bl-simple-degree-value booked-bl-simple-degree-C"><span class="plus">+</span>11</div>
+            <div class="booked-bl-simple-degree-day"> <div class="booked-bl-simple-day-d"><span class="plus">+</span>12&deg;</div>
+            <div class="booked-bl-simple-night-d"><span class="plus">+</span>7&deg;</div>
+            </div>
+            </div>
+            <a href="http://www.booked.net/weather/sankt-anton-am-arlberg-30089" class="booked-bl-simple-city smolest-min">Sankt Anton am Arlberg</a>
+            <div class="booked-bl-simple-date">Tuesday, 09</div>
+            </div>
+            <div class="booked-bl-simple-see10"> <a href="http://www.booked.net/weather/sankt-anton-am-arlberg-30089">See 7-Day Forecast</a>
+            </div>
+            </div>
+            </div>
+            <div class="bookew-weather-copy" id="bookew-weather-copy-1"></div>
+            </div>
+            <script type="text/javascript"> var css_file=document.createElement("link");
+                    css_file.setAttribute("rel","stylesheet");
+                    css_file.setAttribute("type","text/css");
+                    css_file.setAttribute("href",'http://s.bookcdn.com/css/weather.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file);
+                    function setWidgetData(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-bl-simple-35377'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } </script> <script type="text/javascript" charset="UTF-8" src="http://www.booked.net/?page=get_weather_info&       action=get_weather_info&ver=3&cityID=30089&type=1&scode=9068&ltid=3458&domid=w209&cmetric=1&wlangID=1&color=626f7d&wwidth=250&header_color=ffffff&text_color=333333&link_color=08488D&border_form=1&footer_color=ffffff&footer_text_color=333333&transparent=0"></script><!-- weather widget -->
           
      
       
@@ -84,7 +110,7 @@
         <h1>Club Holiday</h1>
       </div>
       <hr>
-
+<!--this is the code for my carousel -->
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
@@ -139,6 +165,7 @@
       <br>
       <br>
       <hr>
+      <!-- this is my list of social events -->
       <div span="4">
        <h1>Social Events</h1>
      
@@ -165,7 +192,31 @@
           All committee posts will be up for election.<br><br>
 
           If you interested in attending or would like more information please contact Jane by either phone or email (details at the top of the page).
+        </div>
  </p>
+ <br>
+ <br>
+     <div class="row">
+        <div class="span6">
+          <h3>Yellow Duckmarine Sunday 18th November 2012 - 11.30am – Albert Dock, Liverpool</h3>
+          <p>All aboard for an exclusive tour of Liverpool’s historic sights and
+             Docks on a World War II  amphibious landing craft. The tour, including
+             ‘splash down’ into the Albert Dock takes approximately 1 hour with
+             live commentary throughout. Adults £10, Children (15 and under) £8.     
+        </p>
+          
+        </div>
+
+          <div class="span6">
+          <h3>GETTING NAILED Wednesday 23rd January 2013 5.00pm – 8pm</h3>
+          <p>Exclusive beauty consultants, Caroline & Co in Allport Road,
+             Bromborough are hosting a Nails Evening exclusively for the Oval Ski
+             Club. Tickets are £10 which will include a choice of either hands or
+             feet treatment, wine/soft drinks & nibbles. Don't worry if you can't
+             make it at 5.00, just turn up when you can.
+
+            </p>
+          </div>
           
         </div>
       
