@@ -25,6 +25,12 @@ body{
 	
 
 }
+a em {
+	  font-style: normal;
+      text-decoration: underline;
+    }
+
+/*a:first-letter { text-decoration: underline;}*/
 
 /*a:link {color:#FF0000;}      /* unvisited link */
 /*a:visited {color:#00FF00;}  /* visited link */
