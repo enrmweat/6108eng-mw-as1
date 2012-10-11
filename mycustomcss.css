@@ -1,4 +1,4 @@
-/* my custom style sheet */
+
 
 /* import bootstrap css */
 
@@ -6,6 +6,7 @@
 
 /*my custom style*/
 
+/*this defines the text colour and background image for my whole site*/
 body{
 	background-image: url(assets/img/ricepaper.png);
 
@@ -13,18 +14,20 @@ body{
 
 
 }
-
+/*this defines the navbar background image*/
 .navbar-inner {
 		background-image: url(assets/img/ricepaper.png);
 }
 
-
+/* this defines the hero unit background image and text colour*/
 .hero-unit {
 	background-image: url(assets/img/herobackground.jpg);
-	color: #777777;
+	color: #FFFFFF;
 	
 
 }
+
+/* this defines the underline for the access keys*/
 a em {
 	  font-style: normal;
       text-decoration: underline;
